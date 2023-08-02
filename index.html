@@ -2,12 +2,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop</title>
+    <link rel="stylesheet" type="text/css" href="shopcss.css">
 </head>
 <body>
+    <div class="container">
+    <div id="alerta"></div>
+    <img id="imge" alt="Imagem" src="126510.png" width="40px" height="40px">
+</div>
     <h1>Livro 1</h1>
+   <p><a href="#" onclick="addalert()"> Comprar livro</a></p>
     <h1>Livro 2</h1>
     <h1>Livro 3</h1>
     <h1>Livro 4</h1>
     <h1>Livro 5</h1>
+
+    <script>
+        function addalert(){
+            //deixar o alerta desativado e quando o usuario clicar ele vai ativar o alerta
+            document.getElementById('alerta').innerText = 1;
+        }
+    </script>
 </body>
 </html>
