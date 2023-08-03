@@ -1,5 +1,6 @@
 .container{
     position: relative; /* Define a posição relativa para que o texto absoluto seja posicionado em relação a este container */
+    left: 1450px;
 }
 #alerta{
     position: absolute;
