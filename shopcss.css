@@ -1,9 +1,14 @@
+*{
+    font-size: 25px;
+    
+}
 .container{
     position: relative; /* Define a posição relativa para que o texto absoluto seja posicionado em relação a este container */
-    left: 1450px;
+    left: 1190px;
 }
 #alerta{
     position: absolute;
+    top: 10px;
     left: 40px;
     background-color: rgb(235, 93, 93);
     padding: 5px;
@@ -17,4 +22,27 @@
     border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     border-radius: 30px;
+}
+#livro1{
+    background-image: linear-gradient(45deg,#d184ef,rgb(236, 231, 231));
+    position: absolute;
+    padding: 60px;
+    left: 40px;
+    text-align: center;
+}
+#livro2{
+    background-image: linear-gradient(45deg,#d184ef,rgb(236, 231, 231));
+    height: 420px;
+    position: absolute;
+    left: 450px;
+    text-align: center;
+    padding: 20px;
+}
+#livro3{
+    background-color: rgb(229, 203, 169);
+    height: 420px;
+    position: absolute;
+    left: 800px;
+    text-align: center;
+    padding: 20px;
 }
