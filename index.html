@@ -3,18 +3,34 @@
     <meta charset="UTF-8">
     <title>Shop</title>
     <link rel="stylesheet" type="text/css" href="shopcss.css">
-    <script src='shop.js'></script>
 </head>
 <body>
     <div class="container">
     <div id="alerta"></div>
     <img id="imge" alt="Imagem" src="126510.png" width="40px" height="40px">
 </div>
-    <h1>Livro 1</h1>
-   <p><a href="#" onclick="addalert()"> Comprar livro</a></p>
-    <h1>Livro 2</h1>
-    <h1>Livro 3</h1>
-    <h1>Livro 4</h1>
-    <h1>Livro 5</h1>
+    <div id="livro1">
+    <img src="C:\Users\acgcl\OneDrive\Documentos\Programação\Projetos\pessoais\fotos shop\selecao.jpg" width="200px" height="200px">
+    <h1>A SELEÇÃO</h1>
+   <p><a href="#" onclick="addalert()"><button>R$ 21,99</a></button></a></p>
+</div>
+<div id="livro2">
+   <img src="C:\Users\acgcl\OneDrive\Documentos\Programação\Projetos\pessoais\fotos shop\3.webp" width="200px" height="200px">
+    <h1>3 LIVROS DIÁRIO DE<br> UM BANANA</h1>
+    <p><a href="#" onclick="addalert()"><button>R$ 79,99</a></button></a></p>
+</div>
+<div id="livro3">
+    <img src="C:\Users\acgcl\OneDrive\Documentos\Programação\Projetos\pessoais\fotos shop\2.jpeg" width="200px" height="200px">
+    <h1>QUEM DISSE QUE <br>SERIA FÁCIL?</h1>
+    <p><a href="#" onclick="addalert()"><button>R$ 19,99</a></button></a></p>
+</div>
+
+    <script>
+        let n = 0
+        function addalert(){
+            n++
+            document.getElementById('alerta').innerText = n;
+        }
+    </script>
 </body>
 </html>
